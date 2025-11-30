@@ -1,4 +1,4 @@
-# credit_scoring_from_scratch.py
+# credit_scoring
 # Objective: Predict an individual's creditworthiness using past financial data.
 # Approach: Logistic Regression, Decision Tree, Random Forest.
 # Key Features: Feature engineering, Precision/Recall/F1/ROC-AUC reporting.
@@ -236,4 +236,5 @@ joblib.dump(dt, "decision_tree_model.pkl")
 joblib.dump(rf, "random_forest_model.pkl")
 
 print("✅ Models saved successfully as .pkl files!")
+
 
